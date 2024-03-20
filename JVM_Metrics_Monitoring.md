@@ -1,7 +1,7 @@
 # JVM Metrics | 101 Guide to JVM Metrics Monitoring
 Paying attention to JVM metrics isn't solely about numbers; it's essential for ensuring efficient resource usage, optimizing performance, and troubleshooting issues. In this guide, we'll explore the crucial JVM metrics worth monitoring and methods for collecting them.
 
-## JVM refresher, i.e. what is it?
+## What is a JVM?
 The JVM (Java Virtual Machine) is a sophisticated software layer that enables the platform-independent execution of Java programs by providing a runtime environment, memory management, performance optimization, and security mechanisms. It plays a crucial role in making Java a versatile programming language for a variety of applications.
 
 ## Key JVM metrics to monitor
@@ -109,7 +109,7 @@ jstat -gc 5117 1000 10
 // TODO:
 
 ## Collecting JVM metrics
-// TODO: This is the part where you show how to instrument and send to SigNoz
+// TODO: This is the part where you show how to instrument and send to an APM tool
 
 ## Conclusion
 // TODO: Closing off comments
