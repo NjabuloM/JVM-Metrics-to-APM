@@ -17,7 +17,7 @@ Pivotal JVM metrics offer insights into various aspects of JVM behavior and assi
   - `I/O Metrics`: refer to statistics related to input and output operations performed by Java applications.
 
 ## Closer look at each metric
-The JDK (Java Development Kit) comes pre-packaged with a handful of tools for interacting with these metrics, including both GUI-based tools (e.g., JConsole) and Terminal/Console-based tools (e.g., jstat, jstack, jcmd, and jinfo). Below is a demonstration of how these tools can be used to query the listed metrics.
+The JDK (Java Development Kit) comes pre-packaged with a handful of tools for interacting with these metrics, including both GUI-based tools (e.g. JConsole) and Terminal/Console-based tools (e.g. jstat, jstack, jcmd, and jinfo). Below is a demonstration of how these tools can be used to query the listed metrics.
 
 > To launch JConsole, navigate to the 'bin' directory of your JDK installation using the 'cd' command. Once in the 'bin' directory, use the 'jconsole' command to launch JConsole.
 
@@ -84,17 +84,6 @@ jstat -gc 5117 1000 10
 | CGC, CGCT          | indicates the number of Concurrent Garbage Collection events (CGC) and the time taken for Concurrent Garbage Collection (CGCT) |
 | GCT                | Total Garbage Collection Time, which represents the cumulative time taken for all garbage collection events, including Young Generation, Full Garbage Collection, and Concurrent Garbage Collection |
 
-### Non-Heap Memory Usage
-// TODO:
-
-### Garbage Collection Metrics
-// TODO:
-
-### Metaspace
-// TODO:
-
-### Size of metaspace
-// TODO:
 
 ### Thread Metrics
 // TODO:
