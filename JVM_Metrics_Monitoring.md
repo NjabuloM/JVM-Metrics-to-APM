@@ -7,14 +7,14 @@ The JVM (Java Virtual Machine) is a sophisticated software layer that enables th
 ## Key JVM metrics to monitor
 Pivotal JVM metrics offer insights into various aspects of JVM behavior and assist in diagnosing issues. Below is a list of some of these metrics and the information they provide.
 
-    - `Heap Memory Usage`: indicates the amount of memory currently allocated for Java objects and data structures in the heap
-    - `Non-Heap Memory Usage`: refers to the amount of memory consumed by areas outside the heap, including class metadata, thread stacks, and native memory allocations.
-    - `Garbage Collection Metrics`: show the effectiveness of how the memory is managed
-    - `Metaspace Metrics`: provide insights into the memory utilization, capacity, allocation rate, and other VM internal data.
-    - `Thread Metrics`: shows statistics about the threads running in the JVM.
-    - `Class Loading Metrics`: typically show statistics related to the loading of classes during the execution of a Java program.
-    - `CPU Utilization Metrics`: show the amount of CPU resources consumed by the JVM process itself.
-    - `I/O Metrics`: refer to statistics related to input and output operations performed by Java applications.
+  - `Heap Memory Usage`: indicates the amount of memory currently allocated for Java objects and data structures in the heap
+  - `Non-Heap Memory Usage`: refers to the amount of memory consumed by areas outside the heap, including class metadata, thread stacks, and native memory allocations.
+  - `Garbage Collection Metrics`: show the effectiveness of how the memory is managed
+  - `Metaspace Metrics`: provide insights into the memory utilization, capacity, allocation rate, and other VM internal data.
+  - `Thread Metrics`: shows statistics about the threads running in the JVM.
+  - `Class Loading Metrics`: typically show statistics related to the loading of classes during the execution of a Java program.
+  - `CPU Utilization Metrics`: show the amount of CPU resources consumed by the JVM process itself.
+  - `I/O Metrics`: refer to statistics related to input and output operations performed by Java applications.
 
 ## Closer look at each metric
 The JDK (Java Development Kit) comes pre-packaged with a handful of tools for interacting with these metrics, including both GUI-based tools (e.g., JConsole) and Terminal/Console-based tools (e.g., jstat, jstack, jcmd, and jinfo). Below is a demonstration of how these tools can be used to query the listed metrics.
